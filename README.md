@@ -16,6 +16,9 @@ The objective of this competition is to predict which customers respond positive
 - [NumPy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Seaborn](https://seaborn.pydata.org/)
+- [Scikit-learn](https://scikit-learn.org/stable/)
+- [XGBoost](https://xgboost.readthedocs.io/en/latest/)
+- [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
 
 ## Dataset 📦
 

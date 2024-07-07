@@ -127,3 +127,11 @@ Distributed under the MIT License. See LICENSE for more information.
 ### [GitHub](https://github.com/yashksaini-coder)
 ### [kaggle](https://www.kaggle.com/yashsaini007)
 
+---
+# TODO 📝 
+
+- [ ] Add Advance EDA
+    - [ ] For Train dataset
+    - [ ] For Train vs Test dataset   
+- [ ] Add Model file
+- [ ] Add the project conclusion

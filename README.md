@@ -130,9 +130,5 @@ Distributed under the MIT License. See LICENSE for more information.
 ---
 # TODO 📝 
 
-- [ ] Add Advance EDA
-    - [ ] For Train dataset
-    - [ ] For Train vs Test dataset   
-- [ ] Add Model file
 - [ ] Use LightGBM model
 - [ ] Add the project conclusion

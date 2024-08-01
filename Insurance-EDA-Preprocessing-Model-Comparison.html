@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>insurance-eda-preprocessing-model-comparison</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Insurance-EDA-Preprocessing-Model-Comparison</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7509,7 +7509,50 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c746b1ce">
+<main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d755dc47">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div style="border-radius:10px; border:#3a86ff solid; padding: 15px; background-color: #3d405b; font-size:100%; text-align:left height:100rem width:50%">
+<h1 align="center"> Binary Classification of Insurance Cross Selling 💼🔍 </h1>
+<h3 align="center"><font color="#d4a373">💡 About The data Columns :</font></h3>
+<p>😃We're studying to predict which customers respond positively to an automobile insurance offer.</p>
+<p>🥨<strong>Gender</strong>: Categorical variable indicating the gender of the customer.</p>
+<p>🌭<strong>Age</strong>: Numeric variable indicating the age of the customer.</p>
+<p>🥓<strong>Driving_License</strong>: Binary variable indicating if the customer has a driving license (1 if yes, 0 if no).</p>
+<p>🚜<strong>Region_Code</strong>: Numeric variable indicating the region code of the customer.</p>
+<p>🥡<strong>Previously_Insured</strong>: Binary variable indicating if the customer was previously insured (1 if yes, 0 if no).</p>
+<p>🖼<strong>Vehicle_Age</strong>: Categorical variable indicating the age of the vehicle.</p>
+<p>🕸<strong>Vehicle_Damage</strong>: Categorical variable indicating if the vehicle was damaged in the past.</p>
+<p><strong>Annual_Premium</strong>: Numeric variable indicating the annual premium amount.</p>
+<p>🎡<strong>Policy_Sales_Channel</strong>: Numeric variable indicating the sales channel of the policy.</p>
+<p>🎢<strong>Vintage</strong>: Numeric variable indicating the number of days the customer has been associated with the company.</p>
+<p>🎞<strong>Response</strong>: Binary target variable indicating if the customer responded positively to the automobile insurance offer (1 if yes, 0 if no).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2644a2d2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div style="border-radius:10px; border:#dad7cd solid; padding: 15px; background-color: #003566; font-size:100%; text-align:left">
+<h3 align="center"><font color="#DAA520">💡 About The Competition :</font></h3>
+<p><strong>Task</strong>: The objective of this competition is to predict which customers respond positively to an automobile insurance offer..</p>
+<p><strong>Dataset</strong>: The dataset for this competition (both train and test) was generated from a deep learning model trained on the Health Insurance Cross Sell Prediction Data dataset. Feature distributions are close to, but not exactly the same, as the original. Feel free to use the original dataset as part of this competition, both to explore differences as well as to see whether incorporating the original in training improves model performance.</p>
+<p><strong>Evaluation</strong>: Submissions are evaluated using area under the ROC curve.</p>
+<p><strong>Submission</strong>: train.csv - the training dataset; Response is the binary target
+test.csv - the test dataset; your objective is to predict the probability of Response for each row
+sample_submission.csv - a sample submission file in the correct format</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c746b1ce">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9374,6 +9417,6 @@ Score: 0.8782958954696195
 </div>
 </div>
 </div>
-</main>
+</div></div></main>
 </body>
 </html>

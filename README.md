@@ -2,7 +2,17 @@
     <img src="https://socialify.git.ci/yashksaini-coder/Binary-Classification-of-Insurance-Cross-Selling/image?font=Bitter&forks=1&issues=1&language=1&name=1&pulls=1&stargazers=1&theme=Auto" alt="Binary-Classification-of-Insurance-Cross-Selling" width="640" height="320" />
 </div>
 
-# 
+<div align='center'>
+
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ys3853428@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashksaini-coder)
+  [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yashksaini)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashksaini/)
+  [![Leetcode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/yashksaini/)
+  [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/yashsaini007)
+
+</div> 
+
 # 🛠️ Binary Classification of Insurance Cross Selling - Kaggle Playground Series (Season 4, Episode 7) 🔮
 
 ## **Objective** 🎯
@@ -117,18 +127,33 @@ You are welcome to contribute to this project! To ensure a smooth workflow, plea
 
 Thank you for your contributions! Your efforts help make this project better for everyone. If you have any questions or need assistance, feel free to open an issue or contact the maintainers.
 
-### License
-Distributed under the MIT License. See LICENSE for more information.
+---
+## 📝 Conclusion
 
+In this project, we worked on the Binary Classification of Insurance Cross Selling dataset. Our goal was to predict customer responses to an automobile insurance offer. We started by preprocessing the data and performing exploratory data analysis. Then, we trained XGBoost and LightGBM models to make predictions. We evaluated the models using the Area Under the ROC Curve (AUC-ROC) metric. Finally, we submitted our predictions to the Kaggle competition.
+
+To visualize our results, we have two submission images. The first image, labeled as `XGBoost Model`, shows the performance of our XGBoost model. The second image, labeled as `LightGBM Model`, shows the performance of our LightGBM model. Both images have been resized for better viewing.
+
+<div align="center">
+<table>
+  <tr>
+    <th>XGBoost Model</th>
+    <th>LightGBM Model</th>
+  </tr>
+  <tr>
+    <td><img src="images/sub1.png"></td>
+    <td><img src="images/sub2.png"></td>
+  </tr>
+</table>
+</div>
 
 ---
-### 🐚✨ **Author**:
-### [Linkedin](https://www.linkedin.com/in/yashksaini/)
-### [GitHub](https://github.com/yashksaini-coder)
-### [kaggle](https://www.kaggle.com/yashsaini007)
+
+### License
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
 # TODO 📝 
 
-- [ ] Use LightGBM model
-- [ ] Add the project conclusion
+- [X] Use LightGBM model
+- [X] Add the project conclusion
